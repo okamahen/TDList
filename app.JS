@@ -1,5 +1,6 @@
 <htmL>
-<h1>TO DO APPS</h1>
+<h1>TO-DO-LIST APPLICATION</h1>
+<h2>Simple application to take list without database</h2>
 
 // Create form with to catch input from user
 // Remember default behaviour of form in HTML is to send data elsewhere and reload the page
