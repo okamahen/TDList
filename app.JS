@@ -46,7 +46,8 @@ function createItem(a) {
   ourField.focus()
 }
 
-//Now create function to delete with element created in the future (not avail at the moment)
+//Now create function to delete with element created in the future (not avail at initial or refresh)
+//"x" in the function will be replaced with "this" from HTML element onclick, so each item will have their specific "this" reference, making select and delete to be specific
 //And we cannot use addEventListener as the element not defined yet, so below is the trick to remove element defined in the future
 function deleteItem(x) {
   x.parentElement.remove() //.remove() to remove the selected element
